@@ -1,0 +1,432 @@
+==================================================
+THRESHOLD: 0.0
+==================================================
+
+--- APPROACH 1: STOP ENTAILMENT ---
+              precision    recall  f1-score   support
+
+Contradicted   0.000000  0.000000  0.000000       152
+    Verified   0.830923  1.000000  0.907655       747
+
+    accuracy                       0.830923       899
+   macro avg   0.415462  0.500000  0.453827       899
+weighted avg   0.690433  0.830923  0.754192       899
+
+
+--- APPROACH 2: ASYMMETRIC ---
+              precision    recall  f1-score   support
+
+Contradicted   0.000000  0.000000  0.000000       152
+    Verified   0.830923  1.000000  0.907655       747
+
+    accuracy                       0.830923       899
+   macro avg   0.415462  0.500000  0.453827       899
+weighted avg   0.690433  0.830923  0.754192       899
+==================================================
+THRESHOLD: 0.1
+==================================================
+
+--- APPROACH 1: STOP ENTAILMENT ---
+              precision    recall  f1-score   support
+
+Contradicted   0.333333  0.046053  0.080925       152
+    Verified   0.834852  0.981258  0.902154       747
+
+    accuracy                       0.823137       899
+   macro avg   0.584093  0.513655  0.491539       899
+weighted avg   0.750057  0.823137  0.763303       899
+
+
+--- APPROACH 2: ASYMMETRIC ---
+              precision    recall  f1-score   support
+
+Contradicted   0.461538  0.039474  0.072727       152
+    Verified   0.835214  0.990629  0.906307       747
+
+    accuracy                       0.829811       899
+   macro avg   0.648376  0.515051  0.489517       899
+weighted avg   0.772035  0.829811  0.765368       899
+==================================================
+THRESHOLD: 0.2
+==================================================
+
+--- APPROACH 1: STOP ENTAILMENT ---
+              precision    recall  f1-score   support
+
+Contradicted   0.320000  0.052632  0.090395       152
+    Verified   0.835240  0.977242  0.900679       747
+
+    accuracy                       0.820912       899
+   macro avg   0.577620  0.514937  0.495537       899
+weighted avg   0.748125  0.820912  0.763679       899
+
+
+--- APPROACH 2: ASYMMETRIC ---
+              precision    recall  f1-score   support
+
+Contradicted   0.333333  0.032895  0.059880       152
+    Verified   0.833710  0.986613  0.903740       747
+
+    accuracy                       0.825362       899
+   macro avg   0.583522  0.509754  0.481810       899
+weighted avg   0.749108  0.825362  0.761063       899
+==================================================
+THRESHOLD: 0.25
+==================================================
+
+--- APPROACH 1: STOP ENTAILMENT ---
+              precision    recall  f1-score   support
+
+Contradicted   0.307692  0.052632  0.089888       152
+    Verified   0.835052  0.975904  0.900000       747
+
+    accuracy                       0.819800       899
+   macro avg   0.571372  0.514268  0.494944       899
+weighted avg   0.745887  0.819800  0.763029       899
+
+
+--- APPROACH 2: ASYMMETRIC ---
+              precision    recall  f1-score   support
+
+Contradicted   0.333333  0.032895  0.059880       152
+    Verified   0.833710  0.986613  0.903740       747
+
+    accuracy                       0.825362       899
+   macro avg   0.583522  0.509754  0.481810       899
+weighted avg   0.749108  0.825362  0.761063       899
+==================================================
+THRESHOLD: 0.3
+==================================================
+
+--- APPROACH 1: STOP ENTAILMENT ---
+              precision    recall  f1-score   support
+
+Contradicted   0.321429  0.059211  0.100000       152
+    Verified   0.835821  0.974565  0.899876       747
+
+    accuracy                       0.819800       899
+   macro avg   0.578625  0.516888  0.499938       899
+weighted avg   0.748849  0.819800  0.764636       899
+
+
+--- APPROACH 2: ASYMMETRIC ---
+              precision    recall  f1-score   support
+
+Contradicted   0.357143  0.032895  0.060241       152
+    Verified   0.833898  0.987952  0.904412       747
+
+    accuracy                       0.826474       899
+   macro avg   0.595521  0.510423  0.482326       899
+weighted avg   0.753290  0.826474  0.761682       899
+==================================================
+THRESHOLD: 0.35
+==================================================
+
+--- APPROACH 1: STOP ENTAILMENT ---
+              precision    recall  f1-score   support
+
+Contradicted   0.375000  0.078947  0.130435       152
+    Verified   0.838524  0.973226  0.900867       747
+
+    accuracy                       0.822024       899
+   macro avg   0.606762  0.526087  0.515651       899
+weighted avg   0.760153  0.822024  0.770605       899
+
+
+--- APPROACH 2: ASYMMETRIC ---
+              precision    recall  f1-score   support
+
+Contradicted   0.444444  0.052632  0.094118       152
+    Verified   0.836549  0.986613  0.905405       747
+
+    accuracy                       0.828699       899
+   macro avg   0.640497  0.519622  0.499762       899
+weighted avg   0.770254  0.828699  0.768236       899
+==================================================
+THRESHOLD: 0.4
+==================================================
+
+--- APPROACH 1: STOP ENTAILMENT ---
+              precision    recall  f1-score   support
+
+Contradicted   0.355932  0.138158  0.199052       152
+    Verified   0.844048  0.949130  0.893510       747
+
+    accuracy                       0.812013       899
+   macro avg   0.599990  0.543644  0.546281       899
+weighted avg   0.761519  0.812013  0.776093       899
+
+
+--- APPROACH 2: ASYMMETRIC ---
+              precision    recall  f1-score   support
+
+Contradicted   0.372093  0.105263  0.164103       152
+    Verified   0.841121  0.963855  0.898316       747
+
+    accuracy                       0.818687       899
+   macro avg   0.606607  0.534559  0.531209       899
+weighted avg   0.761820  0.818687  0.774177       899
+==================================================
+THRESHOLD: 0.5
+==================================================
+
+--- APPROACH 1: STOP ENTAILMENT ---
+              precision    recall  f1-score   support
+
+Contradicted   0.386139  0.256579  0.308300       152
+    Verified   0.858396  0.917001  0.886731       747
+
+    accuracy                       0.805339       899
+   macro avg   0.622267  0.586790  0.597516       899
+weighted avg   0.778548  0.805339  0.788932       899
+
+
+--- APPROACH 2: ASYMMETRIC ---
+              precision    recall  f1-score   support
+
+Contradicted   0.400000  0.210526  0.275862       152
+    Verified   0.853480  0.935743  0.892720       747
+
+    accuracy                       0.813126       899
+   macro avg   0.626740  0.573135  0.584291       899
+weighted avg   0.776807  0.813126  0.788424       899
+==================================================
+THRESHOLD: 0.6
+==================================================
+
+--- APPROACH 1: STOP ENTAILMENT ---
+              precision    recall  f1-score   support
+
+Contradicted   0.394495  0.282895  0.329502       152
+    Verified   0.862025  0.911647  0.886142       747
+
+    accuracy                       0.805339       899
+   macro avg   0.628260  0.597271  0.607822       899
+weighted avg   0.782977  0.805339  0.792027       899
+
+
+--- APPROACH 2: ASYMMETRIC ---
+              precision    recall  f1-score   support
+
+Contradicted   0.400000  0.223684  0.286920       152
+    Verified   0.855037  0.931727  0.891736       747
+
+    accuracy                       0.812013       899
+   macro avg   0.627518  0.577706  0.589328       899
+weighted avg   0.778101  0.812013  0.789476       899
+==================================================
+THRESHOLD: 0.7
+==================================================
+
+--- APPROACH 1: STOP ENTAILMENT ---
+              precision    recall  f1-score   support
+
+Contradicted   0.389831  0.302632  0.340741       152
+    Verified   0.864277  0.903614  0.883508       747
+
+    accuracy                       0.802002       899
+   macro avg   0.627054  0.603123  0.612124       899
+weighted avg   0.784059  0.802002  0.791739       899
+
+
+--- APPROACH 2: ASYMMETRIC ---
+              precision    recall  f1-score   support
+
+Contradicted   0.393258  0.230263  0.290456       152
+    Verified   0.855556  0.927711  0.890173       747
+
+    accuracy                       0.809789       899
+   macro avg   0.624407  0.578987  0.590315       899
+weighted avg   0.777392  0.809789  0.788775       899
+==================================================
+THRESHOLD: 0.85
+==================================================
+
+--- APPROACH 1: STOP ENTAILMENT ---
+              precision    recall  f1-score   support
+
+Contradicted   0.375000  0.355263  0.364865       152
+    Verified   0.870199  0.879518  0.874834       747
+
+    accuracy                       0.790879       899
+   macro avg   0.622599  0.617391  0.619849       899
+weighted avg   0.786472  0.790879  0.788610       899
+
+
+--- APPROACH 2: ASYMMETRIC ---
+              precision    recall  f1-score   support
+
+Contradicted   0.381818  0.276316  0.320611       152
+    Verified   0.860583  0.908969  0.884115       747
+
+    accuracy                       0.802002       899
+   macro avg   0.621201  0.592642  0.602363       899
+weighted avg   0.779635  0.802002  0.788839       899
+==================================================
+THRESHOLD: 0.9
+==================================================
+
+--- APPROACH 1: STOP ENTAILMENT ---
+              precision    recall  f1-score   support
+
+Contradicted   0.374194  0.381579  0.377850       152
+    Verified   0.873656  0.870147  0.871898       747
+
+    accuracy                       0.787542       899
+   macro avg   0.623925  0.625863  0.624874       899
+weighted avg   0.789208  0.787542  0.788366       899
+
+
+--- APPROACH 2: ASYMMETRIC ---
+              precision    recall  f1-score   support
+
+Contradicted   0.396552  0.302632  0.343284       152
+    Verified   0.864623  0.906292  0.884967       747
+
+    accuracy                       0.804227       899
+   macro avg   0.630587  0.604462  0.614125       899
+weighted avg   0.785483  0.804227  0.793381       899
+==================================================
+THRESHOLD: 0.93
+==================================================
+
+--- APPROACH 1: STOP ENTAILMENT ---
+              precision    recall  f1-score   support
+
+Contradicted   0.376471  0.421053  0.397516       152
+    Verified   0.879287  0.858099  0.868564       747
+
+    accuracy                       0.784205       899
+   macro avg   0.627879  0.639576  0.633040       899
+weighted avg   0.794272  0.784205  0.788920       899
+
+
+--- APPROACH 2: ASYMMETRIC ---
+              precision    recall  f1-score   support
+
+Contradicted   0.411290  0.335526  0.369565       152
+    Verified   0.869677  0.902276  0.885677       747
+
+    accuracy                       0.806452       899
+   macro avg   0.640484  0.618901  0.627621       899
+weighted avg   0.792175  0.806452  0.798414       899
+==================================================
+THRESHOLD: 0.94
+==================================================
+
+--- APPROACH 1: STOP ENTAILMENT ---
+              precision    recall  f1-score   support
+
+Contradicted   0.380682  0.440789  0.408537       152
+    Verified   0.882434  0.854083  0.868027       747
+
+    accuracy                       0.784205       899
+   macro avg   0.631558  0.647436  0.638282       899
+weighted avg   0.797600  0.784205  0.790338       899
+
+
+--- APPROACH 2: ASYMMETRIC ---
+              precision    recall  f1-score   support
+
+Contradicted   0.411290  0.335526  0.369565       152
+    Verified   0.869677  0.902276  0.885677       747
+
+    accuracy                       0.806452       899
+   macro avg   0.640484  0.618901  0.627621       899
+weighted avg   0.792175  0.806452  0.798414       899
+==================================================
+THRESHOLD: 0.95
+==================================================
+
+--- APPROACH 1: STOP ENTAILMENT ---
+              precision    recall  f1-score   support
+
+Contradicted   0.380435  0.460526  0.416667       152
+    Verified   0.885315  0.847390  0.865937       747
+
+    accuracy                       0.781980       899
+   macro avg   0.632875  0.653958  0.641302       899
+weighted avg   0.799951  0.781980  0.789976       899
+
+
+--- APPROACH 2: ASYMMETRIC ---
+              precision    recall  f1-score   support
+
+Contradicted   0.407692  0.348684  0.375887       152
+    Verified   0.871261  0.896921  0.883905       747
+
+    accuracy                       0.804227       899
+   macro avg   0.639477  0.622803  0.629896       899
+weighted avg   0.792883  0.804227  0.798011       899
+==================================================
+THRESHOLD: 0.96
+==================================================
+
+--- APPROACH 1: STOP ENTAILMENT ---
+              precision    recall  f1-score   support
+
+Contradicted   0.369231  0.473684  0.414986       152
+    Verified   0.886364  0.835341  0.860096       747
+
+    accuracy                       0.774194       899
+   macro avg   0.627797  0.654513  0.637541       899
+weighted avg   0.798928  0.774194  0.784839       899
+
+
+--- APPROACH 2: ASYMMETRIC ---
+              precision    recall  f1-score   support
+
+Contradicted   0.389706  0.348684  0.368056       152
+    Verified   0.870249  0.888889  0.879470       747
+
+    accuracy                       0.797553       899
+   macro avg   0.629977  0.618787  0.623763       899
+weighted avg   0.789000  0.797553  0.793002       899
+==================================================
+THRESHOLD: 0.98
+==================================================
+
+--- APPROACH 1: STOP ENTAILMENT ---
+              precision    recall  f1-score   support
+
+Contradicted   0.354430  0.552632  0.431877       152
+    Verified   0.897281  0.795181  0.843151       747
+
+    accuracy                       0.754171       899
+   macro avg   0.625856  0.673906  0.637514       899
+weighted avg   0.805498  0.754171  0.773614       899
+
+
+--- APPROACH 2: ASYMMETRIC ---
+              precision    recall  f1-score   support
+
+Contradicted   0.385621  0.388158  0.386885       152
+    Verified   0.875335  0.874163  0.874749       747
+
+    accuracy                       0.791991       899
+   macro avg   0.630478  0.631161  0.630817       899
+weighted avg   0.792536  0.791991  0.792262       899
+==================================================
+THRESHOLD: 1
+==================================================
+
+--- APPROACH 1: STOP ENTAILMENT ---
+              precision    recall  f1-score   support
+
+Contradicted   0.169077  1.000000  0.289248       152
+    Verified   0.000000  0.000000  0.000000       747
+
+    accuracy                       0.169077       899
+   macro avg   0.084538  0.500000  0.144624       899
+weighted avg   0.028587  0.169077  0.048905       899
+
+
+--- APPROACH 2: ASYMMETRIC ---
+              precision    recall  f1-score   support
+
+Contradicted   0.000000  0.000000  0.000000       152
+    Verified   0.830923  1.000000  0.907655       747
+
+    accuracy                       0.830923       899
+   macro avg   0.415462  0.500000  0.453827       899
+weighted avg   0.690433  0.830923  0.754192       899

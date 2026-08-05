@@ -1,0 +1,129 @@
+Threshold: 0.0
+              precision    recall  f1-score   support
+
+contradicted   0.000000  0.000000  0.000000       152
+    verified   0.830923  1.000000  0.907655       747
+
+    accuracy                       0.830923       899
+   macro avg   0.415462  0.500000  0.453827       899
+weighted avg   0.690433  0.830923  0.754192       899
+============================================================
+Threshold: 0.1
+              precision    recall  f1-score   support
+
+contradicted   0.222222  0.250000  0.235294       152
+    verified   0.843407  0.821954  0.832542       747
+
+    accuracy                       0.725250       899
+   macro avg   0.532814  0.535977  0.533918       899
+weighted avg   0.738379  0.725250  0.731562       899
+============================================================
+Threshold: 0.2
+              precision    recall  f1-score   support
+
+contradicted   0.249071  0.440789  0.318290       152
+    verified   0.865079  0.729585  0.791576       747
+
+    accuracy                       0.680756       899
+   macro avg   0.557075  0.585187  0.554933       899
+weighted avg   0.760927  0.680756  0.711554       899
+============================================================
+Threshold: 0.25
+              precision    recall  f1-score   support
+
+contradicted   0.239057  0.467105  0.316258       152
+    verified   0.865449  0.697456  0.772424       747
+
+    accuracy                       0.658509       899
+   macro avg   0.552253  0.582281  0.544341       899
+weighted avg   0.759540  0.658509  0.695297       899
+============================================================
+Threshold: 0.3
+              precision    recall  f1-score   support
+
+contradicted   0.239645  0.532895  0.330612       152
+    verified   0.873440  0.655957  0.749235       747
+
+    accuracy                       0.635150       899
+   macro avg   0.556543  0.594426  0.539924       899
+weighted avg   0.766280  0.635150  0.678456       899
+============================================================
+Threshold: 0.33
+              precision    recall  f1-score   support
+
+contradicted   0.227513  0.565789  0.324528       152
+    verified   0.873321  0.609103  0.717666       747
+
+    accuracy                       0.601780       899
+   macro avg   0.550417  0.587446  0.521097       899
+weighted avg   0.764130  0.601780  0.651195       899
+============================================================
+Threshold: 0.5
+              precision    recall  f1-score   support
+
+contradicted   0.223195  0.671053  0.334975       152
+    verified   0.886878  0.524766  0.659378       747
+
+    accuracy                       0.549499       899
+   macro avg   0.555036  0.597909  0.497176       899
+weighted avg   0.774664  0.549499  0.604529       899
+============================================================
+Threshold: 0.6
+              precision    recall  f1-score   support
+
+contradicted   0.221532  0.703947  0.337008       152
+    verified   0.891827  0.496653  0.638005       747
+
+    accuracy                       0.531702       899
+   macro avg   0.556680  0.600300  0.487507       899
+weighted avg   0.778496  0.531702  0.587114       899
+============================================================
+Threshold: 0.7
+              precision    recall  f1-score   support
+
+contradicted   0.213592  0.723684  0.329835       152
+    verified   0.890625  0.457831  0.604775       747
+
+    accuracy                       0.502781       899
+   macro avg   0.552109  0.590758  0.467305       899
+weighted avg   0.776154  0.502781  0.558289       899
+============================================================
+Threshold: 0.8
+              precision    recall  f1-score   support
+
+contradicted   0.209854  0.756579  0.328571       152
+    verified   0.894587  0.420348  0.571949       747
+
+    accuracy                       0.477197       899
+   macro avg   0.552220  0.588464  0.450260       899
+weighted avg   0.778814  0.477197  0.530800       899
+============================================================
+Threshold: 0.9
+              precision    recall  f1-score   support
+
+contradicted   0.204778  0.789474  0.325203       152
+    verified   0.897764  0.376171  0.530189       747
+
+    accuracy                       0.446051       899
+   macro avg   0.551271  0.582823  0.427696       899
+weighted avg   0.780596  0.446051  0.495530       899
+============================================================
+Threshold: 0.97
+              precision    recall  f1-score   support
+
+contradicted   0.190193  0.842105  0.310303       152
+    verified   0.893805  0.270415  0.415211       747
+
+    accuracy                       0.367075       899
+   macro avg   0.541999  0.556260  0.362757       899
+weighted avg   0.774841  0.367075  0.397473       899
+============================================================
+ Classification Report for Threshold 1
+              precision    recall  f1-score   support
+
+contradicted   0.169077  1.000000  0.289248       152
+    verified   0.000000  0.000000  0.000000       747
+
+    accuracy                       0.169077       899
+   macro avg   0.084538  0.500000  0.144624       899
+weighted avg   0.028587  0.169077  0.048905       899
