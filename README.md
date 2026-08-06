@@ -27,10 +27,12 @@ Fact Verification In Case-Law Documents
     ├── Results
     │   ├── sentence-level
     │   └── chunk-level
-    └── Figures
-        ├── Sentence-level optimal confusion matrices
-        ├── NLI_chunk confusion matrices
-        └── sentence-level confusion matrices
+    ├── Confusion Matrices
+    │   ├── Sentence-level optimal confusion matrices
+    │   ├── NLI_chunk confusion matrices
+    │   └── sentence-level confusion matrices
+    └── Figure
+        └── five-category-error-analysis
 ```
 # Notebooks
 1. **sentence-level-fact-verification.ipynb**: This notebook illustrates how the lighter-weight fact verification was performed at sentence level. The sentences here go through NER pre-filtering, and only the sentences with at least one named entity are considered as a candidate for fact verification by each 4 scoring approaches.
@@ -43,10 +45,13 @@ Fact Verification In Case-Law Documents
 2. **chunk_fact_check_utils.py**: Contains the helper function required for chunk level evaluation
 
 # Results
-The Results folder contains the classification reports for sentence level and chunk level evaluation. Chunk level are provided for NLI scoring approach, for both small and large models.
+The **Results** folder contains the classification reports for sentence level and chunk level evaluation. Chunk level are provided for NLI scoring approach, for both small and large models.
 
-# Figures
-The Figures folder contains the confusion matrices.
+# Confusion Matrices
+The **Confusion Matrices** folder contains the confusion matrices.
+
+# Figure
+The **Figure** folder contains the errors distribution.
 
 # Requirements 
 The **requirements.txt** contains the Python packages required to run the codes. Also, for running the spaCy NER filtering, you need to install the large CNN model and the transformer model:
